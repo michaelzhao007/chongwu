@@ -7,7 +7,7 @@
 angular.module('myApp')
     .factory('uriFactory', function() {
         // AngularJS will instantiate a singleton by calling "new" on this function
-        var env = 'local';
+        var env = 'loca';
         return {
         geturi: function() {
             if (env === 'local') {
